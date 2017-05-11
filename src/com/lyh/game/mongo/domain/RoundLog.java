@@ -1,4 +1,4 @@
-package com.mongo.game.domain;
+package com.lyh.game.mongo.domain;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import com.lib.sql.DbEntity;
+import com.lyh.game.lib.sql.DbEntity;
 
 /**
  * 每小局日志信息 logCode和url保存进DB时候自动赋值

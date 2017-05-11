@@ -1,11 +1,11 @@
-package com.sql.mongodb;
+package com.lyh.game.mongo.dbdao;
 
 import java.util.List;
 
 import org.springframework.data.domain.Sort.Direction;
 import org.springframework.data.mongodb.core.query.Query;
 
-import com.lib.sql.DbEntity;
+import com.lyh.game.lib.sql.DbEntity;
 
 
 

@@ -1,10 +1,10 @@
 
-package com.mongo.login.domain;
+package comlyh.game.mongo.login.domain;
 
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import com.lib.sql.DbEntity;
+import com.lyh.game.lib.sql.DbEntity;
 
 /** 
  * ClassName:LoginUser <br/> 

@@ -1,4 +1,4 @@
-package com.sql.mongodb;
+package com.lyh.game.mongo.dbdao;
 
 import java.beans.IntrospectionException;
 import java.beans.PropertyDescriptor;
@@ -19,7 +19,7 @@ import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Component;
 
-import com.lib.sql.DbEntity;
+import com.lyh.game.lib.sql.DbEntity;
 
 
 

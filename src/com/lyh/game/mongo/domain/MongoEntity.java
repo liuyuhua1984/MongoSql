@@ -1,4 +1,4 @@
-package com.mongo.game.domain;
+package com.lyh.game.mongo.domain;
 
 import java.io.Serializable;
 import java.sql.Timestamp;

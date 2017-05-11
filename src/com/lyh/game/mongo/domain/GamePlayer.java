@@ -1,12 +1,8 @@
 
-package com.mongo.game.domain;
-
-import java.sql.Timestamp;
+package com.lyh.game.mongo.domain;
 
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
-
-import com.lib.sql.DbEntity;
 
 /**
  * ClassName:Role <br/>
@@ -19,7 +15,7 @@ import com.lib.sql.DbEntity;
  * @see
  */
 @Document(collection="game_player")
-public class GamePlayer extends DbEntity {
+public class GamePlayer extends com.lyh.game.lib.sql.DbEntity {
 	
 	/****/
 	private static final long serialVersionUID = 3684576532542034529L;
