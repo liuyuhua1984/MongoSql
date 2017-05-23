@@ -402,11 +402,11 @@
 			<version>${paranamer.version}</version>
 		</dependency>
 
-<dependency>
-    <groupId>org.apache.logging.log4j</groupId>
-    <artifactId>log4j-core</artifactId>
-    <version>${log4j-core.version}</version>
-</dependency>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>${log4j-core.version}</version>
+		</dependency>
 
 		<dependency>
 			<groupId>org.slf4j</groupId>
@@ -635,7 +635,7 @@
 			<artifactId>okhttp</artifactId>
 			<version>${okhttp.version}</version>
 		</dependency>
-			<dependency>
+		<dependency>
 			<groupId>com.squareup.okio</groupId>
 			<artifactId>okio</artifactId>
 			<version>${okio.version}</version>
@@ -676,17 +676,10 @@
 				</configuration>
 			</plugin>
 			<plugin>
-				<artifactId>maven-war-plugin</artifactId>
-				<version>3.0.0</version>
-				<configuration>
-					<warSourceDirectory>WebContent</warSourceDirectory>
-				</configuration>
+				<groupId>org.mybatis.generator</groupId>
+				<artifactId>mybatis-generator-maven-plugin</artifactId>
+				<version>${mybatis-generator-core.version}</version>
 			</plugin>
- 	<plugin>
-      	  <groupId>org.mybatis.generator</groupId>
-      	  <artifactId>mybatis-generator-maven-plugin</artifactId>
-          <version>${mybatis-generator-core.version}</version>
-        </plugin>
 
 		</plugins>
 	</build>
